@@ -1,0 +1,14 @@
+#header {width:789px;}
+#contentBG {width:1022px;}
+#lang { width: 200px; padding: 10px 30px 10px 0;}
+#title .L { width: 498px; padding: 10px 20px 10px 30px;}
+#content {width:789px;}
+div#body {width:470px;}
+div#sidebar {width:289px;padding:20px 0 30px 30px;}
+#body .text {
+  padding:20px 30px 30px 30px;
+}
+#sidebar strong { width: 60px;}
+#search input {width: 246px; padding: 2px 0 0 2px;}
+#footer .left {width:539px;}
+#footer .right { width: 250px;}

@@ -1,0 +1,372 @@
+.clearfix:after {
+  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+}
+
+body, p {margin:0; padding:0;}
+body {background:#C2134E url("../images/west_calgary-b.gif?1") repeat; font: 13px/21px Georgia, 'times new roman', serif; color:#052d3e;}
+img {border: none;}
+pre {
+white-space: normal;
+}
+b, strong, .active {font-weight: bold;}
+a {color:#c2134e; text-decoration:underline;}
+a:hover {text-decoration: none;}
+a.none {text-decoration: none; color:#052d3e;}
+a.none:hover {text-decoration:underline;}
+h1, h2, h3 {margin:0; padding:0 0 10px 0; }
+h1 {font-size:30px; line-height:40px; font-weight:normal; color:#C2134E;}
+h2 {font-size:25px; line-height:35px; font-weight:normal; color:#c2134e;}
+h3 {font-size:20px; line-height:30px; color:#c2134e;}
+form {padding:0; margin:5px 0 0 0;}
+
+.clearer {clear: both; font-size: 1px; line-height: 1px; height:1px; margin:0; padding:0;}
+.left {float: left;}
+.right {float: right;}
+.small {font-size:11px; line-height:21px;}
+.clearerwhite {background:#fff; height:1px;}
+
+div#header, div#contentBG, div#content {
+margin:auto;
+padding:0;
+}
+#header {
+  max-width:789px;
+}
+#contentBG {
+  min-height:249px;
+  height:auto !important;
+  height:249px;
+  max-width:1022px;
+}
+#content {
+  max-width:789px;
+}
+#header .hr {height:10px; line-height:1px; font-size:1px;}
+div#container {
+position:relative;
+width:100%;
+}
+.titletop {
+background:#eb6390;
+height:13px;
+}
+div#title {
+background:#c2134e;
+}
+#title h1 {
+font-variant:small-caps;
+line-height:40px;
+color: #ffff00;
+}
+#title .L {width:63.1%; padding:10px 2.5% 10px 3.8%; float:left;}
+#lang {width:25.3%; text-align:right; padding:10px 3.8% 10px 0; float:right;} 
+#lang ul { margin: 0; padding: 0; list-style-type: none; }
+#lang li { margin: 0; padding: 0 0 0 7px; display: inline; }
+#lang a {
+color:#fff;
+text-decoration:none;
+
+}
+#lang a:hover {text-decoration:underline;}
+#lang a.active {color:#ffff00;}
+#mainmenu, div#submenu {
+font-size:15px;
+padding:0 22px 6px 22px;
+margin:0;
+}
+#mainmenu {
+padding: 0 22px 0;
+}
+#mainmenu ul, #submenu ul {
+padding: 0;
+margin: 0;
+}
+
+#mainmenu li, #submenu li {
+margin: 0;
+padding: 0;
+display:inline;
+
+}
+#mainmenu a, #submenu a {
+  line-height:30px;
+  padding:4px 6px;
+  text-decoration:none;
+}
+#submenu a {
+    color:#000;
+}
+#mainmenu a:hover { background:#fff; color: #000;}
+#submenu a:hover { text-decoration: underline;}
+#mainmenu a.active {font-weight:normal; background:#fff; color: #000;}
+#submenu {
+  background:#feffff url('../images/west_submenu-b.gif?1') repeat-x top;
+
+  margin-bottom:10px;
+  display:block;
+  overflow:hidden;
+}
+.menuHR {background:#fff; height:4px; line-height:1px; font-size:1px;}
+div#body {
+width:59.6%;
+background:#fff;
+min-height:249px;
+height:auto !important;
+height:249px;
+}
+#body .text {
+  padding:20px 30px 30px 30px;
+}
+        #body .text-inner {
+           width: 100%;
+           overflow: hidden;
+        }
+          #body .text-inner img {
+           max-width: 100%;
+          }
+#body .text h2, #body .text h3 {
+  color:#000;
+}
+#body .date {
+  width:47px;
+  margin:5px 17px 5px 0;
+}
+#body .date .dd {
+  font-size:30px;
+  line-height:30px;
+  color:#fff;
+  text-align:center;
+  padding: 3px 0 6px 0;
+  background:#EB6390 url('../images/date-b.png?1') no-repeat top right;
+}
+#body .date .mm {
+  text-align:center;
+  color:#fff;
+  padding:0px 0 4px 0;
+  background:#C2134E url('../images/date-b.png?1') no-repeat bottom right;
+}
+#body .text.blog {
+  padding-bottom:10px;
+}
+#body .blogpost {
+  padding:0 0 20px 0;
+  width:346px;
+}
+
+.excerpt {
+  margin-bottom: 20px
+}
+.data, .data2 {
+  color:#C2134E;
+  padding-bottom:8px;
+}
+.data {
+  margin-top:-10px;
+}
+div#comments {
+padding-top:25px;
+}
+#comments .hr {
+  background: url('../images/west_comments-hr.gif?1') repeat-x 0 12px;
+  margin:0 0 15px 0;
+}
+#comments .hr2 {
+  background: url('../images/west_comments-hr2.gif?1') repeat-x 0 12px;
+  margin:0 0 15px 0;
+}
+#comments h4 {
+  color:#c2134e;
+  font-size:14px;
+  line-height:20px;
+  font-weight:bold;
+  padding:5px 18px 5px 0;
+  background:#fff;
+  display:inline;
+}
+#comments .formtitle {
+  text-align:right;
+  width:115px;
+  padding-top:3px;
+}
+#comments input.textbox, #comments textarea{
+  border:1px solid #c2134e;
+  padding:3px 5px 2px 5px;
+  height:19px;
+  width:259px;
+  font-family: Georgia, 'times new roman', serif;
+  margin:0 0 4px 0;
+
+  font-size:13px;
+  line-height:21px;
+}
+#comments textarea {
+  height:86px;
+  max-height: 150px;
+}
+#comments .add {
+  width:100%;
+  text-align:right;
+  background: url('../images/west_comments-hr2.gif?1') repeat-x 0 12px;
+}
+#comments  input.submit {
+  border:none;
+  background:#fff;
+  color:#c2134e;
+  height:20px;
+  padding:0 0 0 15px;
+  margin:0;
+  font-size:14px;
+  line-height:20px;
+  font-weight:bold;
+  font-family:Georgia, 'times new roman', serif;
+}
+div#sidebar {
+width:36.6%;
+padding:2.5% 0 0 0;
+overflow-x: hidden;
+background: white;
+}
+#sidebar strong {
+  float:left;
+  width:28.8%;
+}
+#sidebar a {
+  display:block;
+}
+#sidebar a.allnews {
+  font-weight:bold;
+  color:#fff;
+  padding:10px 0 10px 0;
+}
+#sidebar .news {
+  padding-bottom: 30px;
+}
+div#footer {
+margin:18px 0;
+padding-top:12px;
+border-top:3px solid #c2134e;
+color: white;
+}
+#footer .left {width:68.3%;}
+#footer .right {width:31.7%; text-align:right;}
+#search {
+background: #c2134e;
+text-align: center;
+}
+#search input {
+height: 17px;
+width: 85.1%;
+margin: 30px 0;
+padding: 2px 0 0 0.7%; 
+}
+#edicy a {
+color: white;
+}
+
+#sidebar p, #sidebar h2 {
+margin-left: 20px;
+  margin-right: 20px;
+}
+
+#mainmenu>ul li.untranslated {
+*background: #360a13;
+}
+#mainmenu ul li.untranslated {
+_background: #360a13;
+}
+#mainmenu li {
+background: transparent;
+}
+#mainmenu li, #submenu li {
+  display: inline-block;
+  float: left;
+}
+
+/* forms */
+   .form_area {
+      margin: 20px 0;
+}
+.form_field {
+  margin: 0 0 5px;
+}
+.form_field label {
+  display: block;
+  font-weight: bold;
+}
+.form_error {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px dotted red;
+  padding: 5px;
+}
+.form_field_error {
+  color: red;
+  font-size: 10px;
+  line-height: 14px;
+}
+.form_notice {
+  color: green;
+  border: 1px dotted green;
+  padding: 5px;
+}
+.form_field_size_large {
+  width: 98%;
+}
+.form_field_size_medium {
+  width: 50%;
+}
+.form_field_size_small {
+  width: 25%;
+}
+body .add-article {
+  margin-bottom: 10px;
+  display: inline-block !important;
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  div#footer {padding: 12px 10px 0 10px;}
+  #comments .formtitle {
+    width: auto;
+    text-align: left;
+    display: block;
+    float: none;
+  }
+  #comments .right { float:none;}
+  #comments input.textbox, #comments textarea {
+    width: 95%;
+    padding: 3px 2% 2px;
+  }
+}
+@media screen and (max-width:540px) {
+  #lang {
+    width: auto;
+    float: none;
+    padding: 10px;
+    text-align:left;
+  }
+  #lang li { padding: 0 7px 0 0;}
+  #title .L {
+    width: auto;
+    float: none;
+    padding: 10px;
+  }
+  #mainmenu, div#submenu {padding: 0 10px 10px;}
+  div#body {width:auto;float:none;}
+  #body .text { padding: 10px;}
+  div#sidebar {width:auto;float:none;padding: 10px;}
+  #sidebar p, #sidebar h2 {
+    display: none;
+  }
+  .news {display:none;}
+}
+/*@media screen and (max-width: 405px) {
+  #comments .formtitle {
+    width: auto;
+    text-align: left;
+  }
+  #comments .right {
+    float: none;
+  }
+  
+}*/
