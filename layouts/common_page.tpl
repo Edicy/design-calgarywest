@@ -23,7 +23,6 @@
   </div>
 	</div>
 </div>
-{% unless editmode %}{{ site.analytics }}{% endunless %} 
   {% include "JS" %}
 </body>
 </html>

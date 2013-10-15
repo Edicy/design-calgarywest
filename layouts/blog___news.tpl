@@ -3,7 +3,6 @@
 <head>
 {% include "Head" %} 
 {{ blog.rss_link }}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
 </head>
 <body>
 {% include "Header" %}
@@ -13,10 +12,21 @@
    <div id="body" class="left">
     <div class="blog text">
        <div class="text-inner">
+       <h1>{{ page.title }}</h1>
+       {% if tags %}
+            <div class="tagged-list-header">
+                <div class="header-tag-icon"></div>
+                {% if tags == empty %}
+                    {{ "no_posts_tagged" | lc }}
+                {% else %}
+                    {{ "posts_tagged" | lc }} '{{ tags | sort:"name" | map:"name" | join:"', '"}}'.
+                {% endif %}
+            </div>
+        {% endif %}
     
       {% addbutton class="add-article" %}
          
-       <h1>{{ page.title }}</h1>
+       
                                               
      {% for article in articles %}
      <div class="date left">
@@ -47,7 +57,6 @@
   </div>
 	</div>
 </div>
-{% unless editmode %}{{ site.analytics }}{% endunless %} 
   {% include "JS" %}
 </body>
 </html>
