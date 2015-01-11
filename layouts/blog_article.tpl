@@ -28,8 +28,8 @@
      <div class="clearfix">
       <h2>{% editable article.title plain="true" %}</h2>
       <div class="data">{{ article.author.name }}, <a href="{{ article.url }}#comments">{{ "comments" |lc }}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></a></div>
-       <div class="excerpt">{% editable article.excerpt %}</div>
-       {% editable article.body %}
+       <div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+       <div data-search-indexing-allowed="true">{% editable article.body %}</div>
        
        {% if editmode %}
         <div class="cfx article-tags">

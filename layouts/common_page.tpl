@@ -11,7 +11,7 @@
   <div id="content">
    <div id="body" class="left">
     <div class="text">
-                                    <div class="text-inner clearfix">
+                                    <div class="text-inner clearfix" data-search-indexing-allowed="true">
      {% content %}
                                     </div>
     </div>
