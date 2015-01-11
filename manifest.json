@@ -1,170 +1,170 @@
 {
-  "preview_small": "http://static.edicy.com/designs/previews/calgary-west_small.jpg",
-  "preview_medium": "http://static.edicy.com/designs/previews/calgary-west_medium.jpg",
   "description": "Calgary West",
-  "assets": [
-    {
-      "file": "images/west_calgary-b.gif",
-      "kind": "images",
-      "filename": "west_calgary-b.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_calgary-b_medium.gif",
-      "kind": "images",
-      "filename": "west_calgary-b_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_comments-hr.gif",
-      "kind": "images",
-      "filename": "west_comments-hr.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_comments-hr_medium.gif",
-      "kind": "images",
-      "filename": "west_comments-hr_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_comments-hr2.gif",
-      "kind": "images",
-      "filename": "west_comments-hr2.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_comments-hr2_medium.gif",
-      "kind": "images",
-      "filename": "west_comments-hr2_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_submenu-b.gif",
-      "kind": "images",
-      "filename": "west_submenu-b.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "images/west_submenu-b_medium.gif",
-      "kind": "images",
-      "filename": "west_submenu-b_medium.gif",
-      "content_type": "image/gif"
-    },
-    {
-      "file": "stylesheets/west_style.css",
-      "kind": "stylesheets",
-      "filename": "west_style.css",
-      "content_type": "text/css"
-    },
-    {
-      "file": "images/date-b.png",
-      "kind": "images",
-      "filename": "date-b.png",
-      "content_type": "image/png"
-    },
-    {
-      "file": "stylesheets/ie.css",
-      "kind": "stylesheets",
-      "filename": "ie.css",
-      "content_type": "text/css"
-    },
-    {
-      "file": "images/header-tag.png",
-      "kind": "images",
-      "filename": "header-tag.png",
-      "content_type": "image/png"
-    },
-    {
-      "file": "javascripts/modernizr.js",
-      "kind": "javascripts",
-      "filename": "modernizr.js",
-      "content_type": "text/javascript"
-    },
-    {
-      "file": "images/header-tag.svg",
-      "kind": "images",
-      "filename": "header-tag.svg",
-      "content_type": "image/svg+xml"
-    },
-    {
-      "file": "images/tag.png",
-      "kind": "images",
-      "filename": "tag.png",
-      "content_type": "image/png"
-    },
-    {
-      "file": "images/tag.svg",
-      "kind": "images",
-      "filename": "tag.svg",
-      "content_type": "image/svg+xml"
-    }
-  ],
   "name": "Calgary (West)",
+  "preview_medium": "http://static.edicy.com/designs/previews/calgary-west_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/calgary-west_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "file": "layouts/common_page.tpl",
-      "title": "Common page",
+      "content_type": "page",
       "component": false,
-      "layout_name": "page_default",
-      "content_type": "page"
-    },
-    {
-      "file": "layouts/blog___news.tpl",
-      "title": "Blog & News",
-      "component": false,
-      "layout_name": "blog_front",
-      "content_type": "blog"
-    },
-    {
-      "file": "layouts/blog_article.tpl",
-      "title": "Blog Article",
-      "component": false,
-      "layout_name": "blog_article",
-      "content_type": "blog_article"
-    },
-    {
-      "file": "components/head.tpl",
-      "title": "Head",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/header.tpl",
-      "title": "Header",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/sidebar.tpl",
-      "title": "Sidebar",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
-      "file": "components/footer.tpl",
-      "title": "Footer",
-      "component": true,
-      "layout_name": "",
-      "content_type": "component"
-    },
-    {
       "file": "layouts/front_page.tpl",
-      "title": "Front page",
-      "component": false,
       "layout_name": "page_front",
-      "content_type": "page"
+      "title": "Front page"
     },
     {
-      "file": "components/js.tpl",
-      "title": "JS",
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog Article"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "layout_name": "",
-      "content_type": "component"
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/head.tpl",
+      "layout_name": "head",
+      "title": "head"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/header.tpl",
+      "layout_name": "header",
+      "title": "header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/sidebar.tpl",
+      "layout_name": "sidebar",
+      "title": "sidebar"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/tag.svg",
+      "kind": "assets",
+      "filename": "tag.svg"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/date-b.png",
+      "kind": "images",
+      "filename": "date-b.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_calgary-b.gif",
+      "kind": "images",
+      "filename": "west_calgary-b.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_calgary-b_medium.gif",
+      "kind": "images",
+      "filename": "west_calgary-b_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_comments-hr.gif",
+      "kind": "images",
+      "filename": "west_comments-hr.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_comments-hr2.gif",
+      "kind": "images",
+      "filename": "west_comments-hr2.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_comments-hr2_medium.gif",
+      "kind": "images",
+      "filename": "west_comments-hr2_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_comments-hr_medium.gif",
+      "kind": "images",
+      "filename": "west_comments-hr_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_submenu-b.gif",
+      "kind": "images",
+      "filename": "west_submenu-b.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/west_submenu-b_medium.gif",
+      "kind": "images",
+      "filename": "west_submenu-b_medium.gif"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie.css",
+      "kind": "stylesheets",
+      "filename": "ie.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/west_style.css",
+      "kind": "stylesheets",
+      "filename": "west_style.css"
     }
   ]
 }
