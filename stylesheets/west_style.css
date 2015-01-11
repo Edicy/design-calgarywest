@@ -124,6 +124,25 @@ height:249px;
           #body .text-inner img {
            max-width: 100%;
           }
+          /* Editable content image */
+          .edy-positionable-container-left {
+            margin-right: 15px;
+          }
+          .edy-positionable-container-right {
+            margin-left: 15px;
+          }
+          .edy-image-container-with-title:after {
+            display: block;
+            padding: 4px;
+            font-size: 10px;
+            line-height: 1.3em;
+            content: attr(data-title);
+            word-break: break-word;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+          }
 #body .text h2, #body .text h3 {
   color:#000;
 }
@@ -235,7 +254,7 @@ line-height: 1.4em;
     margin-right: 7px;
     margin-top: 3px;
 }
-.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.svg .article-tag-icon { background: url('../assets/tag.svg') no-repeat center center; }
 .tagged-list-header {
     padding: 0;
     font-size: 24px;
@@ -253,7 +272,7 @@ line-height: 1.4em;
     margin-top: -1px;
     margin-right: 15px;
 }
-.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.svg .header-tag-icon { background: url('../assets/header-tag.svg') no-repeat center center; }
 .tagged-list-header  a {border: none; text-decoration: none;}
 .tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
 .article-tags .edy-taglist { margin-left: 25px; }
