@@ -58,8 +58,8 @@ font-variant:small-caps;
 line-height:40px;
 color: #ffff00;
 }
-#title .L {width:63.1%; padding:10px 2.5% 10px 3.8%; float:left;}
-#lang {width:25.3%; text-align:right; padding:10px 3.8% 10px 0; float:right;} 
+#title .L { min-width: 122px; padding:10px 2.5% 10px 3.8%; float:left;}
+#lang { text-align:right; padding:10px 3.8% 10px 0; float:right;} 
 #lang ul { margin: 0; padding: 0; list-style-type: none; }
 #lang li { margin: 0; padding: 0 0 0 7px; display: inline; }
 #lang a {
