@@ -106,6 +106,10 @@ display:inline;
   display:block;
   overflow:hidden;
 }
+#mainmenu a.edy-cbtn:hover,
+#submenu a.edy-cbtn:hover {
+  background: none;
+}
 .menuHR {background:#fff; height:4px; line-height:1px; font-size:1px;}
 div#body {
 width:59.6%;
