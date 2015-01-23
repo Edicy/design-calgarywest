@@ -25,6 +25,14 @@ form {padding:0; margin:5px 0 0 0;}
 .small {font-size:11px; line-height:21px;}
 .clearerwhite {background:#fff; height:1px;}
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 div#header, div#contentBG, div#content {
 margin:auto;
 padding:0;
@@ -384,6 +392,12 @@ body .add-article {
   margin-bottom: 10px;
   display: inline-block !important;
   text-decoration: none;
+}
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,4 +1,4 @@
-<div id="headerBG">
+<div id="headerBG" class="content-hyphenate">
 <div id="header">
   <div class="titletop"></div>
   <div id="title">
