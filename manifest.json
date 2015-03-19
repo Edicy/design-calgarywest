@@ -38,35 +38,35 @@
       "component": true,
       "file": "components/footer.tpl",
       "layout_name": "footer",
-      "title": "footer"
+      "title": "Footer"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/head.tpl",
       "layout_name": "head",
-      "title": "head"
+      "title": "Head"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/header.tpl",
       "layout_name": "header",
-      "title": "header"
+      "title": "Header"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/js.tpl",
       "layout_name": "js",
-      "title": "js"
+      "title": "JS"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/sidebar.tpl",
       "layout_name": "sidebar",
-      "title": "sidebar"
+      "title": "Sidebar"
     }
   ],
   "assets": [
@@ -108,12 +108,6 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/west_calgary-b_medium.gif",
-      "kind": "images",
-      "filename": "west_calgary-b_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/west_comments-hr.gif",
       "kind": "images",
       "filename": "west_comments-hr.gif"
@@ -126,27 +120,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/west_comments-hr2_medium.gif",
-      "kind": "images",
-      "filename": "west_comments-hr2_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/west_comments-hr_medium.gif",
-      "kind": "images",
-      "filename": "west_comments-hr_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/west_submenu-b.gif",
       "kind": "images",
       "filename": "west_submenu-b.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/west_submenu-b_medium.gif",
-      "kind": "images",
-      "filename": "west_submenu-b_medium.gif"
     },
     {
       "content_type": "application/javascript",
