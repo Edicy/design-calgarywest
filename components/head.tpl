@@ -24,4 +24,4 @@ display: inline;
 <!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 <meta name="viewport" content="initial-scale=1" />
 <!--[if lt IE 7]>{% stylesheet_link "ie.css" %}<![endif]-->
-<title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
+<title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{% unless page.site_title == "" %}{{ page.site_title }} | {% endunless %}{{ page.title }}{% endif %}</title>
